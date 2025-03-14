@@ -9,4 +9,5 @@ int main (){
     printf("Altura: %.2f\n", altura);
     printf("Inicial: %c\n", inicial);
 
+    return 0;
 }
