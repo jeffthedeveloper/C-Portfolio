@@ -1,64 +1,58 @@
-# Portfólio de Estudos em Linguagem C
+# 🚀 Polyglot Software Engineering Portfolio
 
-## Sobre este Repositório
+![C Language](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
-Bem-vindo ao meu portfólio de estudos da Linguagem C. Eu criei este repositório para documentar meu aprendizado e demonstrar meu entendimento dos conceitos fundamentais desta linguagem.
+## 📌 Sobre este Ecossistema
 
-Este repositório não é uma aplicação singular, mas sim uma coleção de programas independentes. Cada arquivo `.c` isola e demonstra um conceito central da linguagem, desde a sintaxe básica (como `hello-world.c`) até tópicos mais complexos, como gerenciamento de memória e aritmética de ponteiros.
+Este repositório consolida o meu ecossistema técnico, demonstrando a capacidade de transitar entre diferentes níveis de abstração: do gerenciamento de memória em **C** ao desenvolvimento de sistemas corporativos em **C#** e persistência de dados complexa em **SQL Server**.
 
-## 📚 Conceitos Demonstrados
+A proposta é evidenciar a transição do baixo nível para o alto nível, mostrando que compreendo como o software é construído desde os fundamentos da computação até as demandas de um ambiente de banco de dados empresarial.
 
-Cada arquivo neste repositório foca em um pilar da programação em C:
+---
 
-  * **`hello-world.c`**
+## 🛠️ Níveis de Desenvolvimento
 
-      * O programa introdutório essencial. Demonstra a estrutura básica de um arquivo C, a inclusão da biblioteca `stdio.h` e o uso da função `printf`.
+### 1. Fundamentos em C (`/C-Portfolio`)
+Focado nos pilares da computação. Cada arquivo isola um conceito crítico:
+* **`hello-world.c`**: Estrutura básica e I/O.
+* **`data-types.c` & `arithmetic-operators.c`**: Manipulação de dados primitivos e lógica aritmética.
+* **`pointers-arithmetic.c`**: Gestão de memória e manipulação de endereços (o coração do C).
+* **`arrays.c` & `strings.c`**: Manipulação de estruturas sequenciais.
 
-  * **`data-types.c`**
+### 2. Backend & Integração C# (`/Solution`)
+Soluções de negócio focadas em processamento de dados e integração de APIs.
+* **`EmployeeDataProcessor.cs`**: Conjunto de algoritmos utilizando LINQ para manipulação de coleções, cálculos estatísticos (média de idade) e ordenação complexa.
+* **`NotesStore.cs`**: Implementação de sistema de gerenciamento de estados (Active/Completed/Others) com validação de entradas e tratamento de exceções.
+* **`FootballAPIClient.cs`**: Integração de sistemas via `HttpClient`, demonstrando consumo de APIs externas e processamento de dados JSON assíncronos.
 
-      * Explora a declaração e utilização dos tipos de dados primitivos da linguagem, como `int`, `float`, `double` e `char`.
+### 3. Persistência de Dados (SQL Server)
+Consultas avançadas para análise de grandes volumes de dados.
+* **`TransactionsAnalytics.sql`**: Queries complexas envolvendo agregações, particionamento de períodos (Q1-Q4) e uso de funções de janela (`LAG`, `SUM OVER`) para identificar padrões de comportamento de usuários e transações.
 
-  * **`arithmetic-operators.c`**
+---
 
-      * Demonstração de operadores aritméticos básicos (adição, subtração, multiplicação, divisão) e sua aplicação.
+## 🚀 Como Compilar e Executar
 
-  * **`conditionals.c`**
+### Para C
+```bash
+gcc -o programa arquivo.c
+./programa
 
-      * Implementação de lógica de controle de fluxo utilizando estruturas condicionais, como `if`, `else if` e `else`.
+```
 
-  * **`loops-sizeof.c`**
+### Para C#
 
-      * Demonstração de estruturas de repetição (loops `for` e `while`) e o uso do operador `sizeof` para determinar o tamanho em bytes de diferentes tipos de dados.
+Este código pode ser executado em qualquer ambiente .NET ou via CLI:
 
-  * **`arrays.c`**
+```bash
+dotnet run
 
-      * Prática com declaração, inicialização e iteração sobre arrays estáticos.
+```
 
-  * **`strings.c`**
+---
 
-      * Manipulação de strings em C, que são tratadas como arrays de caracteres (`char[]`) terminados pelo caractere nulo (`\0`).
+*Desenvolvido por [Jefferson Firmino](https://github.com/jeffthedeveloper).*
 
-  * **`pointers-arithmetic.c`**
-
-      * Um mergulho no conceito mais poderoso do C: ponteiros. Este arquivo demonstra como declarar ponteiros, obter endereços de memória (referência), acessar valores (desreferência) e realizar aritmética de ponteiros para navegar por estruturas de dados.
-
-## 🚀 Como Utilizar
-
-Este repositório é feito para ser lido e compilado arquivo por arquivo.
-
-1.  Clone o repositório:
-
-    ```bash
-    git clone https://github.com/jeffthedeveloper/C-Portfolio.git
-    cd C-Portfolio
-    ```
-
-2.  Para compilar e executar qualquer um dos projetos (usando `gcc`, por exemplo):
-
-    ```bash
-    # Exemplo compilando o arquivo de ponteiros
-    gcc pointers-arithmetic.c -o pointers
-
-    # Executar o programa compilado
-    ./pointers
-    ```
+```
