@@ -1,0 +1,146 @@
+	Surface types: count = 2
+		VK_KHR_xcb_surface
+		VK_KHR_xlib_surface
+	Formats: count = 2
+		SurfaceFormat[0]:
+			format = FORMAT_B8G8R8A8_SRGB
+			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
+		SurfaceFormat[1]:
+			format = FORMAT_B8G8R8A8_UNORM
+			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
+	Present Modes: count = 4
+		PRESENT_MODE_IMMEDIATE_KHR
+		PRESENT_MODE_MAILBOX_KHR
+		PRESENT_MODE_FIFO_KHR
+		PRESENT_MODE_FIFO_RELAXED_KHR
+	VkSurfaceCapabilitiesKHR:
+	-------------------------
+		minImageCount = 3
+		maxImageCount = 0
+		currentExtent:
+			width  = 256
+			height = 256
+		minImageExtent:
+			width  = 256
+			height = 256
+		maxImageExtent:
+			width  = 256
+			height = 256
+		maxImageArrayLayers = 1
+		supportedTransforms: count = 1
+			SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+		currentTransform = SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+		supportedCompositeAlpha: count = 2
+			COMPOSITE_ALPHA_OPAQUE_BIT_KHR
+			COMPOSITE_ALPHA_INHERIT_BIT_KHR
+		supportedUsageFlags: count = 7
+			IMAGE_USAGE_TRANSFER_SRC_BIT
+			IMAGE_USAGE_TRANSFER_DST_BIT
+			IMAGE_USAGE_SAMPLED_BIT
+			IMAGE_USAGE_STORAGE_BIT
+			IMAGE_USAGE_COLOR_ATTACHMENT_BIT
+			IMAGE_USAGE_INPUT_ATTACHMENT_BIT
+			IMAGE_USAGE_ATTACHMENT_FEEDBACK_LOOP_BIT_EXT
+	VkSurfaceCapabilitiesPresentId2KHR:
+	-----------------------------------
+		presentId2Supported = true
+	VkSurfaceCapabilitiesPresentWait2KHR:
+	-------------------------------------
+		presentWait2Supported = true
+	VkSurfaceProtectedCapabilitiesKHR:
+	----------------------------------
+		supportsProtected = false
+	VK_EXT_surface_maintenance1:
+	----------------------------
+		PRESENT_MODE_IMMEDIATE_KHR:
+			minImageCount = 3
+			maxImageCount = 0
+			VkSurfacePresentScalingCapabilitiesKHR:
+				supportedPresentScaling:
+					None
+				supportedPresentGravityX:
+					None
+				supportedPresentGravityY:
+					None
+				minScaledImageExtent:
+					width  = 256
+					height = 256
+				maxScaledImageExtent:
+					width  = 256
+					height = 256
+			VkSurfacePresentModeCompatibilityKHR:
+				presentModeCount = 4
+				pPresentModes: count = 4
+					PRESENT_MODE_IMMEDIATE_KHR
+					PRESENT_MODE_MAILBOX_KHR
+					PRESENT_MODE_FIFO_KHR
+					PRESENT_MODE_FIFO_RELAXED_KHR
+		PRESENT_MODE_MAILBOX_KHR:
+			minImageCount = 4
+			maxImageCount = 0
+			VkSurfacePresentScalingCapabilitiesKHR:
+				supportedPresentScaling:
+					None
+				supportedPresentGravityX:
+					None
+				supportedPresentGravityY:
+					None
+				minScaledImageExtent:
+					width  = 256
+					height = 256
+				maxScaledImageExtent:
+					width  = 256
+					height = 256
+			VkSurfacePresentModeCompatibilityKHR:
+				presentModeCount = 4
+				pPresentModes: count = 4
+					PRESENT_MODE_MAILBOX_KHR
+					PRESENT_MODE_IMMEDIATE_KHR
+					PRESENT_MODE_FIFO_KHR
+					PRESENT_MODE_FIFO_RELAXED_KHR
+		PRESENT_MODE_FIFO_KHR:
+			minImageCount = 3
+			maxImageCount = 0
+			VkSurfacePresentScalingCapabilitiesKHR:
+				supportedPresentScaling:
+					None
+				supportedPresentGravityX:
+					None
+				supportedPresentGravityY:
+					None
+				minScaledImageExtent:
+					width  = 256
+					height = 256
+				maxScaledImageExtent:
+					width  = 256
+					height = 256
+			VkSurfacePresentModeCompatibilityKHR:
+				presentModeCount = 4
+				pPresentModes: count = 4
+					PRESENT_MODE_FIFO_KHR
+					PRESENT_MODE_IMMEDIATE_KHR
+					PRESENT_MODE_MAILBOX_KHR
+					PRESENT_MODE_FIFO_RELAXED_KHR
+		PRESENT_MODE_FIFO_RELAXED_KHR:
+			minImageCount = 3
+			maxImageCount = 0
+			VkSurfacePresentScalingCapabilitiesKHR:
+				supportedPresentScaling:
+					None
+				supportedPresentGravityX:
+					None
+				supportedPresentGravityY:
+					None
+				minScaledImageExtent:
+					width  = 256
+					height = 256
+				maxScaledImageExtent:
+					width  = 256
+					height = 256
+			VkSurfacePresentModeCompatibilityKHR:
+				presentModeCount = 4
+				pPresentModes: count = 4
+					PRESENT_MODE_FIFO_RELAXED_KHR
+					PRESENT_MODE_IMMEDIATE_KHR
+					PRESENT_MODE_MAILBOX_KHR
+					PRESENT_MODE_FIFO_KHR

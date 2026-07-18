@@ -1,0 +1,11 @@
+========================
+	queueProperties[0]:
+	-------------------
+		minImageTransferGranularity = (1,1,1)
+		queueCount                  = 1
+		queueFlags                  = QUEUE_GRAPHICS_BIT | QUEUE_COMPUTE_BIT | QUEUE_TRANSFER_BIT
+		timestampValidBits          = 36
+		present support             = true
+		VkQueueFamilyOwnershipTransferPropertiesKHR:
+		--------------------------------------------
+			optimalImageTransferToQueueFamilies = 0

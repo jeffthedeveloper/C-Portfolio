@@ -1,0 +1,161 @@
+	maxImageDimension1D                             = 16384
+	maxImageDimension2D                             = 16384
+	maxImageDimension3D                             = 2048
+	maxImageDimensionCube                           = 16384
+	maxImageArrayLayers                             = 2048
+	maxTexelBufferElements                          = 134217728
+	maxUniformBufferRange                           = 134217728
+	maxStorageBufferRange                           = 1965246464
+	maxPushConstantsSize                            = 256
+	maxMemoryAllocationCount                        = 4294967295
+	maxSamplerAllocationCount                       = 65536
+	bufferImageGranularity                          = 0x00000001
+	sparseAddressSpaceSize                          = 0x00000000
+	maxBoundDescriptorSets                          = 8
+	maxPerStageDescriptorSamplers                   = 402653184
+	maxPerStageDescriptorUniformBuffers             = 201326592
+	maxPerStageDescriptorStorageBuffers             = 201326592
+	maxPerStageDescriptorSampledImages              = 201326592
+	maxPerStageDescriptorStorageImages              = 201326592
+	maxPerStageDescriptorInputAttachments           = 64
+	maxPerStageResources                            = 201326592
+	maxDescriptorSetSamplers                        = 402653184
+	maxDescriptorSetUniformBuffers                  = 201326592
+	maxDescriptorSetUniformBuffersDynamic           = 8
+	maxDescriptorSetStorageBuffers                  = 201326592
+	maxDescriptorSetStorageBuffersDynamic           = 8
+	maxDescriptorSetSampledImages                   = 201326592
+	maxDescriptorSetStorageImages                   = 201326592
+	maxDescriptorSetInputAttachments                = 256
+	maxVertexInputAttributes                        = 29
+	maxVertexInputBindings                          = 31
+	maxVertexInputAttributeOffset                   = 2047
+	maxVertexInputBindingStride                     = 4095
+	maxVertexOutputComponents                       = 128
+	maxTessellationGenerationLevel                  = 64
+	maxTessellationPatchSize                        = 32
+	maxTessellationControlPerVertexInputComponents  = 128
+	maxTessellationControlPerVertexOutputComponents = 128
+	maxTessellationControlPerPatchOutputComponents  = 128
+	maxTessellationControlTotalOutputComponents     = 4096
+	maxTessellationEvaluationInputComponents        = 128
+	maxTessellationEvaluationOutputComponents       = 128
+	maxGeometryShaderInvocations                    = 32
+	maxGeometryInputComponents                      = 128
+	maxGeometryOutputComponents                     = 128
+	maxGeometryOutputVertices                       = 256
+	maxGeometryTotalOutputComponents                = 1024
+	maxFragmentInputComponents                      = 116
+	maxFragmentOutputAttachments                    = 8
+	maxFragmentDualSrcAttachments                   = 1
+	maxFragmentCombinedOutputResources              = 402653192
+	maxComputeSharedMemorySize                      = 49152
+	maxComputeWorkGroupCount: count = 3
+		65535
+		65535
+		65535
+	maxComputeWorkGroupInvocations                  = 1024
+	maxComputeWorkGroupSize: count = 3
+		1024
+		1024
+		1024
+	subPixelPrecisionBits                           = 8
+	subTexelPrecisionBits                           = 8
+	mipmapPrecisionBits                             = 8
+	maxDrawIndexedIndexValue                        = 4294967295
+	maxDrawIndirectCount                            = 4294967295
+	maxSamplerLodBias                               = 16
+	maxSamplerAnisotropy                            = 16
+	maxViewports                                    = 16
+	maxViewportDimensions: count = 2
+		16384
+		16384
+	viewportBoundsRange: count = 2
+		-32768
+		32767
+	viewportSubPixelBits                            = 13
+	minMemoryMapAlignment                           = 4096
+	minTexelBufferOffsetAlignment                   = 0x00000010
+	minUniformBufferOffsetAlignment                 = 0x00000040
+	minStorageBufferOffsetAlignment                 = 0x00000004
+	minTexelOffset                                  = -8
+	maxTexelOffset                                  = 7
+	minTexelGatherOffset                            = -32
+	maxTexelGatherOffset                            = 31
+	minInterpolationOffset                          = -0.5
+	maxInterpolationOffset                          = 0.4375
+	subPixelInterpolationOffsetBits                 = 4
+	maxFramebufferWidth                             = 16384
+	maxFramebufferHeight                            = 16384
+	maxFramebufferLayers                            = 2048
+	framebufferColorSampleCounts: count = 5
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+		SAMPLE_COUNT_16_BIT
+	framebufferDepthSampleCounts: count = 5
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+		SAMPLE_COUNT_16_BIT
+	framebufferStencilSampleCounts: count = 5
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+		SAMPLE_COUNT_16_BIT
+	framebufferNoAttachmentsSampleCounts: count = 5
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+		SAMPLE_COUNT_16_BIT
+	maxColorAttachments                             = 8
+	sampledImageColorSampleCounts: count = 5
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+		SAMPLE_COUNT_16_BIT
+	sampledImageIntegerSampleCounts: count = 5
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+		SAMPLE_COUNT_16_BIT
+	sampledImageDepthSampleCounts: count = 5
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+		SAMPLE_COUNT_16_BIT
+	sampledImageStencilSampleCounts: count = 5
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
+		SAMPLE_COUNT_16_BIT
+	storageImageSampleCounts: count = 1
+		SAMPLE_COUNT_1_BIT
+	maxSampleMaskWords                              = 1
+	timestampComputeAndGraphics                     = true
+	timestampPeriod                                 = 52.0833
+	maxClipDistances                                = 8
+	maxCullDistances                                = 8
+	maxCombinedClipAndCullDistances                 = 8
+	discreteQueuePriorities                         = 2
+	pointSizeRange: count = 2
+		0.125
+		255.875
+	lineWidthRange: count = 2
+		0
+		8
+	pointSizeGranularity                            = 0.125
+	lineWidthGranularity                            = 0.0078125
+	strictLines                                     = false
+	standardSampleLocations                         = true
+	optimalBufferCopyOffsetAlignment                = 0x00000080
+	optimalBufferCopyRowPitchAlignment              = 0x00000080
+	nonCoherentAtomSize                             = 0x00000040

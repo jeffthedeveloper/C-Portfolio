@@ -1,0 +1,121 @@
+==================
+VK_LAYER_INTEL_nullhw (INTEL NULL HW) Vulkan version 1.1.73, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 4
+		GPU id = 0 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 1 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 2 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+		GPU id = 3 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+VK_LAYER_INTEL_nullhw (INTEL NULL HW) Vulkan version 1.1.73, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 4
+		GPU id = 0 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 1 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 2 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+		GPU id = 3 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+VK_LAYER_MESA_anti_lag (Open-source implementation of the VK_AMD_anti_lag extension.) Vulkan version 1.4.303, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 4
+		GPU id = 0 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 1
+			VK_AMD_anti_lag : extension revision 1
+		GPU id = 1 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 1
+			VK_AMD_anti_lag : extension revision 1
+		GPU id = 2 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 1
+			VK_AMD_anti_lag : extension revision 1
+		GPU id = 3 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 1
+			VK_AMD_anti_lag : extension revision 1
+VK_LAYER_MESA_anti_lag (Open-source implementation of the VK_AMD_anti_lag extension.) Vulkan version 1.4.303, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 4
+		GPU id = 0 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 1
+			VK_AMD_anti_lag : extension revision 1
+		GPU id = 1 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 1
+			VK_AMD_anti_lag : extension revision 1
+		GPU id = 2 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 1
+			VK_AMD_anti_lag : extension revision 1
+		GPU id = 3 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 1
+			VK_AMD_anti_lag : extension revision 1
+VK_LAYER_MESA_device_select (Linux device selection layer) Vulkan version 1.4.303, layer version 1:
+	Layer Extensions: count = 1
+		VK_EXT_layer_settings : extension revision 2
+	Devices: count = 4
+		GPU id = 0 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 1 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 2 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+		GPU id = 3 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+VK_LAYER_MESA_device_select (Linux device selection layer) Vulkan version 1.4.303, layer version 1:
+	Layer Extensions: count = 1
+		VK_EXT_layer_settings : extension revision 2
+	Devices: count = 4
+		GPU id = 0 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 1 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 2 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+		GPU id = 3 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+VK_LAYER_MESA_overlay (Mesa Overlay layer) Vulkan version 1.4.303, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 4
+		GPU id = 0 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 1 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 2 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+		GPU id = 3 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+VK_LAYER_MESA_overlay (Mesa Overlay layer) Vulkan version 1.4.303, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 4
+		GPU id = 0 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 1 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 2 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+		GPU id = 3 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+VK_LAYER_MESA_screenshot (Mesa Screenshot layer) Vulkan version 1.4.303, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 4
+		GPU id = 0 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 1 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 2 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+		GPU id = 3 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+VK_LAYER_MESA_screenshot (Mesa Screenshot layer) Vulkan version 1.4.303, layer version 1:
+	Layer Extensions: count = 0
+	Devices: count = 4
+		GPU id = 0 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 1 (Intel(R) UHD Graphics 600 (GLK 2))
+		Layer-Device Extensions: count = 0
+		GPU id = 2 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0
+		GPU id = 3 (llvmpipe (LLVM 21.1.8, 128 bits))
+		Layer-Device Extensions: count = 0

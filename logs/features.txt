@@ -1,0 +1,514 @@
+=========================
+	robustBufferAccess                      = true
+	fullDrawIndexUint32                     = true
+	imageCubeArray                          = true
+	independentBlend                        = true
+	geometryShader                          = true
+	tessellationShader                      = true
+	sampleRateShading                       = true
+	dualSrcBlend                            = true
+	logicOp                                 = true
+	multiDrawIndirect                       = true
+	drawIndirectFirstInstance               = true
+	depthClamp                              = true
+	depthBiasClamp                          = true
+	fillModeNonSolid                        = true
+	depthBounds                             = false
+	wideLines                               = true
+	largePoints                             = true
+	alphaToOne                              = true
+	multiViewport                           = true
+	samplerAnisotropy                       = true
+	textureCompressionETC2                  = true
+	textureCompressionASTC_LDR              = true
+	textureCompressionBC                    = true
+	occlusionQueryPrecise                   = true
+	pipelineStatisticsQuery                 = true
+	vertexPipelineStoresAndAtomics          = true
+	fragmentStoresAndAtomics                = true
+	shaderTessellationAndGeometryPointSize  = true
+	shaderImageGatherExtended               = true
+	shaderStorageImageExtendedFormats       = true
+	shaderStorageImageMultisample           = false
+	shaderStorageImageReadWithoutFormat     = false
+	shaderStorageImageWriteWithoutFormat    = true
+	shaderUniformBufferArrayDynamicIndexing = true
+	shaderSampledImageArrayDynamicIndexing  = true
+	shaderStorageBufferArrayDynamicIndexing = true
+	shaderStorageImageArrayDynamicIndexing  = true
+	shaderClipDistance                      = true
+	shaderCullDistance                      = true
+	shaderFloat64                           = true
+	shaderInt64                             = true
+	shaderInt16                             = true
+	shaderResourceResidency                 = false
+	shaderResourceMinLod                    = true
+	sparseBinding                           = false
+	sparseResidencyBuffer                   = false
+	sparseResidencyImage2D                  = false
+	sparseResidencyImage3D                  = false
+	sparseResidency2Samples                 = false
+	sparseResidency4Samples                 = false
+	sparseResidency8Samples                 = false
+	sparseResidency16Samples                = false
+	sparseResidencyAliased                  = false
+	variableMultisampleRate                 = true
+	inheritedQueries                        = true
+
+VkPhysicalDevice4444FormatsFeaturesEXT:
+---------------------------------------
+	formatA4R4G4B4 = true
+	formatA4B4G4R4 = false
+
+VkPhysicalDeviceAttachmentFeedbackLoopDynamicStateFeaturesEXT:
+--------------------------------------------------------------
+	attachmentFeedbackLoopDynamicState = true
+
+VkPhysicalDeviceAttachmentFeedbackLoopLayoutFeaturesEXT:
+--------------------------------------------------------
+	attachmentFeedbackLoopLayout = true
+
+VkPhysicalDeviceBorderColorSwizzleFeaturesEXT:
+----------------------------------------------
+	borderColorSwizzle          = true
+	borderColorSwizzleFromImage = true
+
+VkPhysicalDeviceBufferDeviceAddressFeaturesEXT:
+-----------------------------------------------
+	bufferDeviceAddress              = true
+	bufferDeviceAddressCaptureReplay = false
+	bufferDeviceAddressMultiDevice   = false
+
+VkPhysicalDeviceColorWriteEnableFeaturesEXT:
+--------------------------------------------
+	colorWriteEnable = true
+
+VkPhysicalDeviceComputeShaderDerivativesFeaturesKHR:
+----------------------------------------------------
+	computeDerivativeGroupQuads  = true
+	computeDerivativeGroupLinear = true
+
+VkPhysicalDeviceConditionalRenderingFeaturesEXT:
+------------------------------------------------
+	conditionalRendering          = true
+	inheritedConditionalRendering = true
+
+VkPhysicalDeviceCustomBorderColorFeaturesEXT:
+---------------------------------------------
+	customBorderColors             = true
+	customBorderColorWithoutFormat = true
+
+VkPhysicalDeviceDepthBiasControlFeaturesEXT:
+--------------------------------------------
+	depthBiasControl                                = true
+	leastRepresentableValueForceUnormRepresentation = false
+	floatRepresentation                             = true
+	depthBiasExact                                  = true
+
+VkPhysicalDeviceDepthClampControlFeaturesEXT:
+---------------------------------------------
+	depthClampControl = true
+
+VkPhysicalDeviceDepthClampZeroOneFeaturesKHR:
+---------------------------------------------
+	depthClampZeroOne = true
+
+VkPhysicalDeviceDepthClipControlFeaturesEXT:
+--------------------------------------------
+	depthClipControl = true
+
+VkPhysicalDeviceDepthClipEnableFeaturesEXT:
+-------------------------------------------
+	depthClipEnable = true
+
+VkPhysicalDeviceDescriptorBufferFeaturesEXT:
+--------------------------------------------
+	descriptorBuffer                   = true
+	descriptorBufferCaptureReplay      = true
+	descriptorBufferImageLayoutIgnored = false
+	descriptorBufferPushDescriptors    = true
+
+VkPhysicalDeviceDeviceMemoryReportFeaturesEXT:
+----------------------------------------------
+	deviceMemoryReport = true
+
+VkPhysicalDeviceDynamicRenderingUnusedAttachmentsFeaturesEXT:
+-------------------------------------------------------------
+	dynamicRenderingUnusedAttachments = true
+
+VkPhysicalDeviceExtendedDynamicState2FeaturesEXT:
+-------------------------------------------------
+	extendedDynamicState2                   = true
+	extendedDynamicState2LogicOp            = true
+	extendedDynamicState2PatchControlPoints = true
+
+VkPhysicalDeviceExtendedDynamicState3FeaturesEXT:
+-------------------------------------------------
+	extendedDynamicState3TessellationDomainOrigin         = true
+	extendedDynamicState3DepthClampEnable                 = true
+	extendedDynamicState3PolygonMode                      = true
+	extendedDynamicState3RasterizationSamples             = true
+	extendedDynamicState3SampleMask                       = true
+	extendedDynamicState3AlphaToCoverageEnable            = true
+	extendedDynamicState3AlphaToOneEnable                 = true
+	extendedDynamicState3LogicOpEnable                    = true
+	extendedDynamicState3ColorBlendEnable                 = true
+	extendedDynamicState3ColorBlendEquation               = true
+	extendedDynamicState3ColorWriteMask                   = true
+	extendedDynamicState3RasterizationStream              = true
+	extendedDynamicState3ConservativeRasterizationMode    = true
+	extendedDynamicState3ExtraPrimitiveOverestimationSize = false
+	extendedDynamicState3DepthClipEnable                  = true
+	extendedDynamicState3SampleLocationsEnable            = true
+	extendedDynamicState3ColorBlendAdvanced               = false
+	extendedDynamicState3ProvokingVertexMode              = true
+	extendedDynamicState3LineRasterizationMode            = true
+	extendedDynamicState3LineStippleEnable                = true
+	extendedDynamicState3DepthClipNegativeOneToOne        = true
+	extendedDynamicState3ViewportWScalingEnable           = false
+	extendedDynamicState3ViewportSwizzle                  = false
+	extendedDynamicState3CoverageToColorEnable            = false
+	extendedDynamicState3CoverageToColorLocation          = false
+	extendedDynamicState3CoverageModulationMode           = false
+	extendedDynamicState3CoverageModulationTableEnable    = false
+	extendedDynamicState3CoverageModulationTable          = false
+	extendedDynamicState3CoverageReductionMode            = false
+	extendedDynamicState3RepresentativeFragmentTestEnable = false
+	extendedDynamicState3ShadingRateImageEnable           = false
+
+VkPhysicalDeviceExtendedDynamicStateFeaturesEXT:
+------------------------------------------------
+	extendedDynamicState = true
+
+VkPhysicalDeviceFragmentShaderInterlockFeaturesEXT:
+---------------------------------------------------
+	fragmentShaderSampleInterlock      = true
+	fragmentShaderPixelInterlock       = true
+	fragmentShaderShadingRateInterlock = false
+
+VkPhysicalDeviceGraphicsPipelineLibraryFeaturesEXT:
+---------------------------------------------------
+	graphicsPipelineLibrary = true
+
+VkPhysicalDeviceImage2DViewOf3DFeaturesEXT:
+-------------------------------------------
+	image2DViewOf3D   = true
+	sampler2DViewOf3D = true
+
+VkPhysicalDeviceImageSlicedViewOf3DFeaturesEXT:
+-----------------------------------------------
+	imageSlicedViewOf3D = true
+
+VkPhysicalDeviceImageViewMinLodFeaturesEXT:
+-------------------------------------------
+	minLod = true
+
+VkPhysicalDeviceLegacyDitheringFeaturesEXT:
+-------------------------------------------
+	legacyDithering = true
+
+VkPhysicalDeviceLegacyVertexAttributesFeaturesEXT:
+--------------------------------------------------
+	legacyVertexAttributes = true
+
+VkPhysicalDeviceMaintenance10FeaturesKHR:
+-----------------------------------------
+	maintenance10 = true
+
+VkPhysicalDeviceMaintenance7FeaturesKHR:
+----------------------------------------
+	maintenance7 = true
+
+VkPhysicalDeviceMaintenance8FeaturesKHR:
+----------------------------------------
+	maintenance8 = true
+
+VkPhysicalDeviceMaintenance9FeaturesKHR:
+----------------------------------------
+	maintenance9 = true
+
+VkPhysicalDeviceMapMemoryPlacedFeaturesEXT:
+-------------------------------------------
+	memoryMapPlaced      = true
+	memoryMapRangePlaced = false
+	memoryUnmapReserve   = true
+
+VkPhysicalDeviceMultiDrawFeaturesEXT:
+-------------------------------------
+	multiDraw = true
+
+VkPhysicalDeviceMutableDescriptorTypeFeaturesEXT:
+-------------------------------------------------
+	mutableDescriptorType = true
+
+VkPhysicalDeviceNestedCommandBufferFeaturesEXT:
+-----------------------------------------------
+	nestedCommandBuffer                = true
+	nestedCommandBufferRendering       = true
+	nestedCommandBufferSimultaneousUse = false
+
+VkPhysicalDeviceNonSeamlessCubeMapFeaturesEXT:
+----------------------------------------------
+	nonSeamlessCubeMap = true
+
+VkPhysicalDevicePipelineBinaryFeaturesKHR:
+------------------------------------------
+	pipelineBinaries = true
+
+VkPhysicalDevicePipelineExecutablePropertiesFeaturesKHR:
+--------------------------------------------------------
+	pipelineExecutableInfo = true
+
+VkPhysicalDevicePresentId2FeaturesKHR:
+--------------------------------------
+	presentId2 = true
+
+VkPhysicalDevicePresentIdFeaturesKHR:
+-------------------------------------
+	presentId = true
+
+VkPhysicalDevicePresentWait2FeaturesKHR:
+----------------------------------------
+	presentWait2 = true
+
+VkPhysicalDevicePresentWaitFeaturesKHR:
+---------------------------------------
+	presentWait = true
+
+VkPhysicalDevicePrimitiveTopologyListRestartFeaturesEXT:
+--------------------------------------------------------
+	primitiveTopologyListRestart      = true
+	primitiveTopologyPatchListRestart = true
+
+VkPhysicalDevicePrimitivesGeneratedQueryFeaturesEXT:
+----------------------------------------------------
+	primitivesGeneratedQuery                      = true
+	primitivesGeneratedQueryWithRasterizerDiscard = false
+	primitivesGeneratedQueryWithNonZeroStreams    = false
+
+VkPhysicalDeviceProvokingVertexFeaturesEXT:
+-------------------------------------------
+	provokingVertexLast                       = true
+	transformFeedbackPreservesProvokingVertex = true
+
+VkPhysicalDeviceRobustness2FeaturesKHR:
+---------------------------------------
+	robustBufferAccess2 = true
+	robustImageAccess2  = true
+	nullDescriptor      = true
+
+VkPhysicalDeviceShaderAtomicFloat2FeaturesEXT:
+----------------------------------------------
+	shaderBufferFloat16Atomics      = false
+	shaderBufferFloat16AtomicAdd    = false
+	shaderBufferFloat16AtomicMinMax = false
+	shaderBufferFloat32AtomicMinMax = true
+	shaderBufferFloat64AtomicMinMax = false
+	shaderSharedFloat16Atomics      = false
+	shaderSharedFloat16AtomicAdd    = false
+	shaderSharedFloat16AtomicMinMax = false
+	shaderSharedFloat32AtomicMinMax = true
+	shaderSharedFloat64AtomicMinMax = false
+	shaderImageFloat32AtomicMinMax  = false
+	sparseImageFloat32AtomicMinMax  = false
+
+VkPhysicalDeviceShaderAtomicFloatFeaturesEXT:
+---------------------------------------------
+	shaderBufferFloat32Atomics   = true
+	shaderBufferFloat32AtomicAdd = false
+	shaderBufferFloat64Atomics   = false
+	shaderBufferFloat64AtomicAdd = false
+	shaderSharedFloat32Atomics   = true
+	shaderSharedFloat32AtomicAdd = false
+	shaderSharedFloat64Atomics   = false
+	shaderSharedFloat64AtomicAdd = false
+	shaderImageFloat32Atomics    = true
+	shaderImageFloat32AtomicAdd  = false
+	sparseImageFloat32Atomics    = false
+	sparseImageFloat32AtomicAdd  = false
+
+VkPhysicalDeviceShaderClockFeaturesKHR:
+---------------------------------------
+	shaderSubgroupClock = true
+	shaderDeviceClock   = false
+
+VkPhysicalDeviceShaderImageAtomicInt64FeaturesEXT:
+--------------------------------------------------
+	shaderImageInt64Atomics = true
+	sparseImageInt64Atomics = false
+
+VkPhysicalDeviceShaderMaximalReconvergenceFeaturesKHR:
+------------------------------------------------------
+	shaderMaximalReconvergence = true
+
+VkPhysicalDeviceShaderModuleIdentifierFeaturesEXT:
+--------------------------------------------------
+	shaderModuleIdentifier = true
+
+VkPhysicalDeviceShaderObjectFeaturesEXT:
+----------------------------------------
+	shaderObject = true
+
+VkPhysicalDeviceShaderQuadControlFeaturesKHR:
+---------------------------------------------
+	shaderQuadControl = true
+
+VkPhysicalDeviceShaderRelaxedExtendedInstructionFeaturesKHR:
+------------------------------------------------------------
+	shaderRelaxedExtendedInstruction = true
+
+VkPhysicalDeviceShaderReplicatedCompositesFeaturesEXT:
+------------------------------------------------------
+	shaderReplicatedComposites = true
+
+VkPhysicalDeviceShaderSubgroupUniformControlFlowFeaturesKHR:
+------------------------------------------------------------
+	shaderSubgroupUniformControlFlow = true
+
+VkPhysicalDeviceShaderUniformBufferUnsizedArrayFeaturesEXT:
+-----------------------------------------------------------
+	shaderUniformBufferUnsizedArray = true
+
+VkPhysicalDeviceShaderUntypedPointersFeaturesKHR:
+-------------------------------------------------
+	shaderUntypedPointers = true
+
+VkPhysicalDeviceSwapchainMaintenance1FeaturesKHR:
+-------------------------------------------------
+	swapchainMaintenance1 = true
+
+VkPhysicalDeviceTexelBufferAlignmentFeaturesEXT:
+------------------------------------------------
+	texelBufferAlignment = true
+
+VkPhysicalDeviceTransformFeedbackFeaturesEXT:
+---------------------------------------------
+	transformFeedback = true
+	geometryStreams   = true
+
+VkPhysicalDeviceVertexInputDynamicStateFeaturesEXT:
+---------------------------------------------------
+	vertexInputDynamicState = true
+
+VkPhysicalDeviceVulkan11Features:
+---------------------------------
+	storageBuffer16BitAccess           = true
+	uniformAndStorageBuffer16BitAccess = true
+	storagePushConstant16              = true
+	storageInputOutput16               = false
+	multiview                          = true
+	multiviewGeometryShader            = true
+	multiviewTessellationShader        = true
+	variablePointersStorageBuffer      = true
+	variablePointers                   = true
+	protectedMemory                    = false
+	samplerYcbcrConversion             = true
+	shaderDrawParameters               = true
+
+VkPhysicalDeviceVulkan12Features:
+---------------------------------
+	samplerMirrorClampToEdge                           = true
+	drawIndirectCount                                  = true
+	storageBuffer8BitAccess                            = true
+	uniformAndStorageBuffer8BitAccess                  = true
+	storagePushConstant8                               = true
+	shaderBufferInt64Atomics                           = true
+	shaderSharedInt64Atomics                           = false
+	shaderFloat16                                      = true
+	shaderInt8                                         = true
+	descriptorIndexing                                 = true
+	shaderInputAttachmentArrayDynamicIndexing          = false
+	shaderUniformTexelBufferArrayDynamicIndexing       = true
+	shaderStorageTexelBufferArrayDynamicIndexing       = true
+	shaderUniformBufferArrayNonUniformIndexing         = true
+	shaderSampledImageArrayNonUniformIndexing          = true
+	shaderStorageBufferArrayNonUniformIndexing         = true
+	shaderStorageImageArrayNonUniformIndexing          = true
+	shaderInputAttachmentArrayNonUniformIndexing       = false
+	shaderUniformTexelBufferArrayNonUniformIndexing    = true
+	shaderStorageTexelBufferArrayNonUniformIndexing    = true
+	descriptorBindingUniformBufferUpdateAfterBind      = true
+	descriptorBindingSampledImageUpdateAfterBind       = true
+	descriptorBindingStorageImageUpdateAfterBind       = true
+	descriptorBindingStorageBufferUpdateAfterBind      = true
+	descriptorBindingUniformTexelBufferUpdateAfterBind = true
+	descriptorBindingStorageTexelBufferUpdateAfterBind = true
+	descriptorBindingUpdateUnusedWhilePending          = true
+	descriptorBindingPartiallyBound                    = true
+	descriptorBindingVariableDescriptorCount           = true
+	runtimeDescriptorArray                             = true
+	samplerFilterMinmax                                = true
+	scalarBlockLayout                                  = true
+	imagelessFramebuffer                               = true
+	uniformBufferStandardLayout                        = true
+	shaderSubgroupExtendedTypes                        = true
+	separateDepthStencilLayouts                        = true
+	hostQueryReset                                     = true
+	timelineSemaphore                                  = true
+	bufferDeviceAddress                                = true
+	bufferDeviceAddressCaptureReplay                   = true
+	bufferDeviceAddressMultiDevice                     = false
+	vulkanMemoryModel                                  = true
+	vulkanMemoryModelDeviceScope                       = true
+	vulkanMemoryModelAvailabilityVisibilityChains      = true
+	shaderOutputViewportIndex                          = true
+	shaderOutputLayer                                  = true
+	subgroupBroadcastDynamicId                         = true
+
+VkPhysicalDeviceVulkan13Features:
+---------------------------------
+	robustImageAccess                                  = true
+	inlineUniformBlock                                 = true
+	descriptorBindingInlineUniformBlockUpdateAfterBind = true
+	pipelineCreationCacheControl                       = true
+	privateData                                        = true
+	shaderDemoteToHelperInvocation                     = true
+	shaderTerminateInvocation                          = true
+	subgroupSizeControl                                = true
+	computeFullSubgroups                               = true
+	synchronization2                                   = true
+	textureCompressionASTC_HDR                         = false
+	shaderZeroInitializeWorkgroupMemory                = true
+	dynamicRendering                                   = true
+	shaderIntegerDotProduct                            = true
+	maintenance4                                       = true
+
+VkPhysicalDeviceVulkan14Features:
+---------------------------------
+	globalPriorityQuery                    = true
+	shaderSubgroupRotate                   = true
+	shaderSubgroupRotateClustered          = true
+	shaderFloatControls2                   = true
+	shaderExpectAssume                     = true
+	rectangularLines                       = false
+	bresenhamLines                         = true
+	smoothLines                            = true
+	stippledRectangularLines               = false
+	stippledBresenhamLines                 = true
+	stippledSmoothLines                    = false
+	vertexAttributeInstanceRateDivisor     = true
+	vertexAttributeInstanceRateZeroDivisor = true
+	indexTypeUint8                         = true
+	dynamicRenderingLocalRead              = true
+	maintenance5                           = true
+	maintenance6                           = true
+	pipelineProtectedAccess                = false
+	pipelineRobustness                     = true
+	hostImageCopy                          = true
+	pushDescriptor                         = true
+
+VkPhysicalDeviceWorkgroupMemoryExplicitLayoutFeaturesKHR:
+---------------------------------------------------------
+	workgroupMemoryExplicitLayout                  = true
+	workgroupMemoryExplicitLayoutScalarBlockLayout = true
+	workgroupMemoryExplicitLayout8BitAccess        = true
+	workgroupMemoryExplicitLayout16BitAccess       = true
+
+VkPhysicalDeviceYcbcr2Plane444FormatsFeaturesEXT:
+-------------------------------------------------
+	ycbcr2plane444Formats = true
+
+VkPhysicalDeviceYcbcrImageArraysFeaturesEXT:
+--------------------------------------------
+	ycbcrImageArrays = true
+
